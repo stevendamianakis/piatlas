@@ -1,0 +1,46 @@
+{
+ "definition": "percent of template pairs in the same cluster; same benchmark = the two templates share at least one benchmark",
+ "columns": [
+  "same set, same benchmark",
+  "same set, other benchmark",
+  "other set, same benchmark",
+  "other set, other benchmark",
+  "random pair"
+ ],
+ "rows": {
+  "map": [
+   97.82728864048153,
+   0.2905538228257267,
+   39.25550499977731,
+   1.2793443056933993,
+   14.859275807163433
+  ],
+  "steered": [
+   47.807156725253954,
+   0.15299474733167173,
+   9.334471636154907,
+   0.21519081361708148,
+   4.7958991128624415
+  ],
+  "plain": [
+   19.493494661630276,
+   0.19748580145186112,
+   11.12975445043242,
+   0.8913481544564862,
+   4.1433363758047435
+  ],
+  "qwen": [
+   11.02205297764675,
+   0.22290926094911223,
+   13.314521644334203,
+   0.7392460397906546,
+   4.0627159434794
+  ]
+ },
+ "pairs": {
+  "(True, True)": 586134,
+  "(False, True)": 2402407,
+  "(False, False)": 7660643,
+  "(True, False)": 220269
+ }
+}
