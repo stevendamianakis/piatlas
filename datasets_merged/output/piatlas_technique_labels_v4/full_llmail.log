@@ -1,0 +1,11 @@
+START 2026-09-29T04:00:01+00:00 set=llmail B=1 total=4000 done=0 to_do=4000 workers=12
+PROGRESS 2026-09-29T04:10:16+00:00 500/4000 {'ok': 500} rate=48.8/min eta=71.7min cost=$16.09
+PROGRESS 2026-09-29T04:20:30+00:00 1000/4000 {'ok': 1000} rate=48.9/min eta=61.4min cost=$31.55
+PAUSE 2026-09-29T04:24:21+00:00 usage limit; retry in 10 min: " You've hit your session limit · resets 9:30pm "
+PROGRESS 2026-09-29T04:40:09+00:00 1500/4000 {'ok': 1500} rate=37.4/min eta=66.9min cost=$47.67
+PROGRESS 2026-09-29T04:49:31+00:00 2000/4000 {'ok': 2000} rate=40.4/min eta=49.5min cost=$63.27
+PROGRESS 2026-09-29T04:59:11+00:00 2500/4000 {'ok': 2500} rate=42.3/min eta=35.5min cost=$79.04
+PROGRESS 2026-09-29T05:09:38+00:00 3000/4000 {'ok': 3000} rate=43.1/min eta=23.2min cost=$95.12
+PROGRESS 2026-09-29T05:18:52+00:00 3500/4000 {'ok': 3500} rate=44.4/min eta=11.3min cost=$110.96
+PROGRESS 2026-09-29T05:27:53+00:00 4000/4000 {'ok': 4000} rate=45.5/min eta=0.0min cost=$127.03
+DONE 2026-09-29T05:27:54+00:00 set=llmail labeled=4000/4000 {'ok': 4000}

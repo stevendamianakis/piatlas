@@ -1,0 +1,8 @@
+START 2026-09-29T02:40:27+00:00 set=curated_rest B=1 total=1567 done=0 to_do=1567 workers=4
+PROGRESS 2026-09-29T02:52:34+00:00 250/1567 {'ok': 250} rate=20.6/min eta=63.8min cost=$4.76
+PROGRESS 2026-09-29T03:02:58+00:00 500/1567 {'ok': 500} rate=22.2/min eta=48.1min cost=$9.56
+PROGRESS 2026-09-29T03:13:25+00:00 750/1567 {'ok': 750} rate=22.7/min eta=35.9min cost=$14.29
+PROGRESS 2026-09-29T03:23:25+00:00 1000/1567 {'ok': 1000} rate=23.3/min eta=24.4min cost=$19.12
+PROGRESS 2026-09-29T03:33:23+00:00 1250/1567 {'ok': 1250} rate=23.6/min eta=13.4min cost=$23.92
+PROGRESS 2026-09-29T03:43:59+00:00 1500/1567 {'ok': 1500} rate=23.6/min eta=2.8min cost=$28.78
+DONE 2026-09-29T03:47:13+00:00 set=curated_rest labeled=1567/1567 {'ok': 1567}

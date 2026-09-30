@@ -1,0 +1,114 @@
+CALIB 2026-09-29T02:29:54+00:00 run b1a: B=1, 64 records
+CALIB 2026-09-29T02:32:28+00:00 run b1b: B=1, 64 records
+CALIB 2026-09-29T02:34:58+00:00 run b4: B=4, 64 records
+CALIB 2026-09-29T02:36:07+00:00 run b8: B=8, 64 records
+{
+ "rule": "largest B in (8, 4) with technique micro-F1 against both B=1 runs >= (B=1 vs B=1) - 0.03 and failed records <= B=1's + 2; else B=1",
+ "run_to_run_noise_technique_f1": 0.968,
+ "agreement": {
+  "b1a_vs_b1b": {
+   "technique": {
+    "micro_f1": 0.968,
+    "exact_match_pct": 82.8,
+    "n": 64
+   },
+   "class": {
+    "micro_f1": 0.985,
+    "exact_match_pct": 93.8,
+    "n": 64
+   }
+  },
+  "b4_vs_b1a": {
+   "technique": {
+    "micro_f1": 0.947,
+    "exact_match_pct": 75.0,
+    "n": 64
+   },
+   "class": {
+    "micro_f1": 0.966,
+    "exact_match_pct": 85.9,
+    "n": 64
+   }
+  },
+  "b4_vs_b1b": {
+   "technique": {
+    "micro_f1": 0.933,
+    "exact_match_pct": 70.3,
+    "n": 64
+   },
+   "class": {
+    "micro_f1": 0.958,
+    "exact_match_pct": 82.8,
+    "n": 64
+   }
+  },
+  "b8_vs_b1a": {
+   "technique": {
+    "micro_f1": 0.951,
+    "exact_match_pct": 75.0,
+    "n": 64
+   },
+   "class": {
+    "micro_f1": 0.966,
+    "exact_match_pct": 85.9,
+    "n": 64
+   }
+  },
+  "b8_vs_b1b": {
+   "technique": {
+    "micro_f1": 0.937,
+    "exact_match_pct": 70.3,
+    "n": 64
+   },
+   "class": {
+    "micro_f1": 0.951,
+    "exact_match_pct": 79.7,
+    "n": 64
+   }
+  }
+ },
+ "tokens": {
+  "b1a": {
+   "calls": 64,
+   "cost_usd_per_record": 0.0167,
+   "output_tokens_per_record": 387,
+   "uncached_input_per_record": 836,
+   "cache_read_per_record": 11273,
+   "seconds_per_record": 9.3,
+   "failed_records": 0,
+   "refused": 0
+  },
+  "b1b": {
+   "calls": 64,
+   "cost_usd_per_record": 0.0169,
+   "output_tokens_per_record": 397,
+   "uncached_input_per_record": 834,
+   "cache_read_per_record": 11273,
+   "seconds_per_record": 9.0,
+   "failed_records": 0,
+   "refused": 0
+  },
+  "b4": {
+   "calls": 16,
+   "cost_usd_per_record": 0.0092,
+   "output_tokens_per_record": 291,
+   "uncached_input_per_record": 346,
+   "cache_read_per_record": 2818,
+   "seconds_per_record": 3.8,
+   "failed_records": 0,
+   "refused": 0
+  },
+  "b8": {
+   "calls": 8,
+   "cost_usd_per_record": 0.0077,
+   "output_tokens_per_record": 265,
+   "uncached_input_per_record": 264,
+   "cache_read_per_record": 1409,
+   "seconds_per_record": 2.8,
+   "failed_records": 0,
+   "refused": 0
+  }
+ },
+ "chosen_batch_size": 1,
+ "decided_at": "2026-09-29T02:37:04+00:00"
+}

@@ -1,0 +1,4 @@
+START 2026-09-29T04:00:04+00:00 set=f6_recheck B=1 total=478 done=0 to_do=478 workers=4
+PROGRESS 2026-09-29T04:09:46+00:00 200/478 {'ok': 200} rate=20.6/min eta=13.5min cost=$3.88
+PROGRESS 2026-09-29T04:19:38+00:00 400/478 {'ok': 400} rate=20.4/min eta=3.8min cost=$7.89
+DONE 2026-09-29T04:23:11+00:00 set=f6_recheck labeled=478/478 {'ok': 478}

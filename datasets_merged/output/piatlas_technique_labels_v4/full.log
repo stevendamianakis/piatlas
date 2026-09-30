@@ -1,0 +1,14 @@
+START 2026-09-29T02:37:13+00:00 B=1 total=3096 done=64 to_do=3032 workers=6
+PROGRESS 2026-09-29T02:43:55+00:00 250/3032 {'ok': 250} rate=37.3/min eta=74.5min cost=$3.62
+PROGRESS 2026-09-29T02:50:29+00:00 500/3032 {'ok': 500} rate=37.7/min eta=67.2min cost=$7.26
+PROGRESS 2026-09-29T02:56:15+00:00 750/3032 {'ok': 750} rate=39.4/min eta=57.9min cost=$10.86
+PROGRESS 2026-09-29T03:01:57+00:00 1000/3032 {'ok': 999, 'cannot_analyze': 1} rate=40.4/min eta=50.3min cost=$14.58
+PROGRESS 2026-09-29T03:07:47+00:00 1250/3032 {'ok': 1249, 'cannot_analyze': 1} rate=40.9/min eta=43.6min cost=$18.27
+PROGRESS 2026-09-29T03:13:49+00:00 1500/3032 {'ok': 1499, 'cannot_analyze': 1} rate=41.0/min eta=37.4min cost=$22.01
+PROGRESS 2026-09-29T03:19:18+00:00 1750/3032 {'ok': 1749, 'cannot_analyze': 1} rate=41.6/min eta=30.8min cost=$25.73
+PROGRESS 2026-09-29T03:24:41+00:00 2000/3032 {'ok': 1999, 'cannot_analyze': 1} rate=42.1/min eta=24.5min cost=$29.4
+PROGRESS 2026-09-29T03:30:09+00:00 2250/3032 {'ok': 2249, 'cannot_analyze': 1} rate=42.5/min eta=18.4min cost=$33.07
+PROGRESS 2026-09-29T03:35:41+00:00 2500/3032 {'ok': 2499, 'cannot_analyze': 1} rate=42.8/min eta=12.4min cost=$36.8
+PROGRESS 2026-09-29T03:41:34+00:00 2750/3032 {'ok': 2749, 'cannot_analyze': 1} rate=42.7/min eta=6.6min cost=$40.45
+PROGRESS 2026-09-29T03:47:46+00:00 3000/3032 {'ok': 2999, 'cannot_analyze': 1} rate=42.5/min eta=0.8min cost=$44.11
+DONE 2026-09-29T03:48:28+00:00 labeled=3096/3096 {'ok': 3095, 'cannot_analyze': 1}
