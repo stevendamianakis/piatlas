@@ -1,0 +1,965 @@
+{
+  "name": "PIAtlas",
+  "axis": "construction: how the injected instruction is composed to subvert the model",
+  "excluded_axes": [
+    "delivery vector or channel",
+    "attacker goal",
+    "search or optimization method (black-box or white-box)",
+    "rendering-level tricks that hide text from humans or parsers without changing the model's input",
+    "turn structure of multi-turn attacks",
+    "input modality (text in images or audio is classified once extracted)"
+  ],
+  "codes_are_permanent": true,
+  "counts": {
+    "classes": 6,
+    "techniques": 34,
+    "sub_techniques": 131
+  },
+  "labeling_rule": "multi-label: a record receives every class whose surface signature it matches",
+  "span_rule": "the span, the shortest stretch of text that performs one construction, is the unit: when definitions in two classes fit one span, the class whose part of the text the span changes applies (Appendix G gives the recurring cases); within a class, the more specific sub-technique applies",
+  "classes": [
+    {
+      "code": "F1",
+      "name": "Instruction Manipulation",
+      "subversion_mechanism": "The instruction itself.",
+      "mechanism_exploited": "The instruction-following objective that post-training instills, and the weak separation between authorized instructions and untrusted text.",
+      "techniques": [
+        {
+          "code": "F1.T1",
+          "name": "Plain Command",
+          "definition": "States the attacker's task as an ordinary command, with no emphasis, justification, or disguise.",
+          "sub_techniques": [
+            {
+              "code": "F1.T1.S1",
+              "name": "Added command",
+              "definition": "Adds the attacker's command after the legitimate task."
+            },
+            {
+              "code": "F1.T1.S2",
+              "name": "Replacement command",
+              "definition": "Substitutes the attacker's task for the intended one."
+            }
+          ]
+        },
+        {
+          "code": "F1.T2",
+          "name": "Override",
+          "definition": "Explicitly cancels, resets, or outranks prior instructions so that the attacker's instruction becomes dominant.",
+          "sub_techniques": [
+            {
+              "code": "F1.T2.S1",
+              "name": "Instruction nullification",
+              "definition": "Tells the model to disregard or forget prior instructions, or instructions that follow the injected text (as in attacks on sandwich defenses)."
+            },
+            {
+              "code": "F1.T2.S2",
+              "name": "Reset",
+              "definition": "Declares that the interaction restarts with a clean slate."
+            },
+            {
+              "code": "F1.T2.S3",
+              "name": "Supersession",
+              "definition": "Asserts that the new instruction outranks all others."
+            },
+            {
+              "code": "F1.T2.S4",
+              "name": "Policy revocation",
+              "definition": "Declares the model's rules, policies, or protocols void, whether they concern safety or anything else."
+            },
+            {
+              "code": "F1.T2.S5",
+              "name": "Exception clause",
+              "definition": "Declares that the rules do not apply to this particular case or request."
+            },
+            {
+              "code": "F1.T2.S6",
+              "name": "Contradiction",
+              "definition": "Issues conflicting directives so that the attacker's one prevails."
+            }
+          ]
+        },
+        {
+          "code": "F1.T3",
+          "name": "Task Embedding",
+          "definition": "Presents the malicious action as part of the legitimate workflow, so that it reads as a natural step rather than a separate command.",
+          "sub_techniques": [
+            {
+              "code": "F1.T3.S1",
+              "name": "Task extension",
+              "definition": "Presents the payload as a continuation of the current task, including a sub-task appended to an agent's plan, rather than a new instruction."
+            },
+            {
+              "code": "F1.T3.S2",
+              "name": "Routine step",
+              "definition": "Disguises the payload as a step inside the task's own procedure."
+            },
+            {
+              "code": "F1.T3.S3",
+              "name": "Transformation object",
+              "definition": "Hides the payload as the input of a benign transformation (summarize, translate, rewrite, refine)."
+            }
+          ]
+        },
+        {
+          "code": "F1.T4",
+          "name": "Emphasis",
+          "definition": "Uses typography, importance markers, or repetition to make the directive dominate the model's attention relative to legitimate instructions.",
+          "sub_techniques": [
+            {
+              "code": "F1.T4.S1",
+              "name": "Capitals and symbols",
+              "definition": "Amplifies the directive with ALL CAPS, exclamation marks, or symbol runs."
+            },
+            {
+              "code": "F1.T4.S2",
+              "name": "Importance flag",
+              "definition": "Marks the directive as important, critical, or required."
+            },
+            {
+              "code": "F1.T4.S3",
+              "name": "Repetition",
+              "definition": "Repeats the directive or its topic to raise its salience."
+            }
+          ]
+        },
+        {
+          "code": "F1.T5",
+          "name": "Indirect Phrasing",
+          "definition": "Phrases an instruction as something other than a plain command, such as a statement of fact, an aside to the model, an address to a human reader, or a set of examples, so that it evades imperative detection while still acting as a directive.",
+          "sub_techniques": [
+            {
+              "code": "F1.T5.S1",
+              "name": "Declarative statement",
+              "definition": "States the desired behavior as a description of what the assistant does rather than a command, with no source, prevalence, or other claim attached. A sentence that names a policy, a source, or other people who comply takes the matching F4 entry."
+            },
+            {
+              "code": "F1.T5.S2",
+              "name": "Direct aside",
+              "definition": "Plants a remark explicitly addressed to the processing model."
+            },
+            {
+              "code": "F1.T5.S3",
+              "name": "Address to the reader",
+              "definition": "Addresses the instruction to a human reader, with no mention of AI, while the model still acts on it."
+            },
+            {
+              "code": "F1.T5.S4",
+              "name": "Worked examples",
+              "definition": "Conveys the instruction through input-output examples that carry no role labels, which the model generalizes from."
+            }
+          ]
+        },
+        {
+          "code": "F1.T6",
+          "name": "Execution Rules",
+          "definition": "Adds standing rules for how or when the model processes later text or incoming data, such as a trigger condition, literal execution, a redefinition of terms, a named command, or a pointer to content fetched at run time.",
+          "sub_techniques": [
+            {
+              "code": "F1.T6.S1",
+              "name": "Conditional trigger",
+              "definition": "Arms the payload to fire when a condition appears later in the data, including conditions rigged to hold and the model's own decision to refuse."
+            },
+            {
+              "code": "F1.T6.S2",
+              "name": "Verbatim execution",
+              "definition": "Tells the model to treat the following text as commands to run literally."
+            },
+            {
+              "code": "F1.T6.S4",
+              "name": "Fetch and follow",
+              "definition": "Directs the model to retrieve a resource whose content completes the instruction."
+            },
+            {
+              "code": "F1.T6.S5",
+              "name": "Meaning remap",
+              "definition": "Declares that an existing word or name should be read with a changed meaning, so that later text is interpreted as the attacker intends rather than literally."
+            },
+            {
+              "code": "F1.T6.S6",
+              "name": "Macro definition",
+              "definition": "Defines a named command in the text and then invokes it."
+            }
+          ]
+        },
+        {
+          "code": "F1.T7",
+          "name": "Proxy Request",
+          "definition": "Asks for something other than the target output whose fulfillment yields that output, including a hint, a property, a definition, or a comparison from which it follows, so that no direct request for it appears.",
+          "sub_techniques": [
+            {
+              "code": "F1.T7.S1",
+              "name": "Sample request",
+              "definition": "Asks for the target output as an example needed to illustrate a different task."
+            },
+            {
+              "code": "F1.T7.S2",
+              "name": "Composition request",
+              "definition": "Asks for a larger non-fiction work, such as an article, a report, or a code sample, of which the target output is only a part."
+            },
+            {
+              "code": "F1.T7.S3",
+              "name": "Inverted request",
+              "definition": "Asks what to avoid, how to prevent something, or how something fails, so that the response lists the target output."
+            }
+          ],
+          "status": "no_labeled_instance"
+        }
+      ]
+    },
+    {
+      "code": "F2",
+      "name": "Structural Spoofing",
+      "subversion_mechanism": "The apparent source of the text (its provenance).",
+      "mechanism_exploited": "The conversational format that post-training teaches the model to trust (system and user tags, chat-template control tokens, markup), so that text shaped like the system scaffold inherits its authority.",
+      "techniques": [
+        {
+          "code": "F2.T1",
+          "name": "Delimiters",
+          "definition": "Inserts plain-text role labels or section separators that simulate a privileged turn or a boundary in the conversation.",
+          "sub_techniques": [
+            {
+              "code": "F2.T1.S1",
+              "name": "Role label",
+              "definition": "Plain-text System: labels, headers that name the system, or text styled as a continuation of the system prompt."
+            },
+            {
+              "code": "F2.T1.S2",
+              "name": "Section separator",
+              "definition": "A separator line implying that the data has ended and a new trusted block begins."
+            }
+          ]
+        },
+        {
+          "code": "F2.T2",
+          "name": "Control Tokens",
+          "definition": "Emulates the model- or framework-specific tokens that mark privileged segments of the chat template.",
+          "sub_techniques": [
+            {
+              "code": "F2.T2.S1",
+              "name": "Chat-template token",
+              "definition": "Template tokens such as im_start, <<SYS>>, or [INST]."
+            },
+            {
+              "code": "F2.T2.S2",
+              "name": "Boundary token",
+              "definition": "Begin- or end-of-turn tokens that forge a turn boundary."
+            }
+          ]
+        },
+        {
+          "code": "F2.T3",
+          "name": "Structured-Data Disguise",
+          "definition": "Wraps the payload in a data or markup format so that it masquerades as configuration, metadata, trusted structured data, or a notice addressed to the model. An instruction whose own content is written as data or code, with no such claim, is F3.T8.",
+          "sub_techniques": [
+            {
+              "code": "F2.T3.S1",
+              "name": "Runtime config",
+              "definition": "JSON or YAML posing as runtime configuration."
+            },
+            {
+              "code": "F2.T3.S2",
+              "name": "Markup element",
+              "definition": "XML or HTML elements that present the enclosed text as system data or as a notice addressed to the model, even when that text is plain prose."
+            },
+            {
+              "code": "F2.T3.S4",
+              "name": "Metadata field",
+              "definition": "Places the directive in a field where instructions plausibly belong."
+            }
+          ]
+        },
+        {
+          "code": "F2.T4",
+          "name": "Fabricated Dialogue",
+          "definition": "Fabricates conversation turns so that the model believes a trusted exchange already took place.",
+          "sub_techniques": [
+            {
+              "code": "F2.T4.S1",
+              "name": "Assistant turn",
+              "definition": "Puts compliant words, a finished answer (a fake completion), or a reasoning block in the assistant's mouth."
+            },
+            {
+              "code": "F2.T4.S2",
+              "name": "Many-shot demonstrations",
+              "definition": "Many fabricated compliant exchanges that shift the in-context distribution."
+            },
+            {
+              "code": "F2.T4.S3",
+              "name": "Prior agreement",
+              "definition": "A fabricated turn in which the assistant already consented or began. A prose claim of earlier agreement is F4."
+            },
+            {
+              "code": "F2.T4.S4",
+              "name": "User turn",
+              "definition": "A forged user message opened with the user's role label or token."
+            }
+          ]
+        },
+        {
+          "code": "F2.T5",
+          "name": "Counterfeit Tool Results",
+          "definition": "Makes the payload look like an authoritative function result, retrieval result, integration or log output, or system message, so that the model treats untrusted text as a trusted backend response.",
+          "sub_techniques": [
+            {
+              "code": "F2.T5.S1",
+              "name": "Function return",
+              "definition": "Mimics a tool's structured return value."
+            },
+            {
+              "code": "F2.T5.S2",
+              "name": "Status or error message",
+              "definition": "Mimics a system or API status or error."
+            },
+            {
+              "code": "F2.T5.S3",
+              "name": "Retrieved-source block",
+              "definition": "Tags content as an authoritative retrieved source."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F3",
+      "name": "Obfuscation",
+      "subversion_mechanism": "The legibility of the text (what inspection can read). The instruction keeps its meaning while its form changes.",
+      "mechanism_exploited": "The gap between what defenses inspect and what the model can read. Detectors often classify only plain, mostly English text, and adversarial training includes few encoded, perturbed, or reworded examples, yet the model still decodes, translates, reassembles, or simply understands such text.",
+      "techniques": [
+        {
+          "code": "F3.T1",
+          "name": "Character Perturbation",
+          "definition": "Alters characters or word shapes so that keyword filters miss the payload while the model still reads it.",
+          "sub_techniques": [
+            {
+              "code": "F3.T1.S1",
+              "name": "Leetspeak",
+              "definition": "Digit- or symbol-for-letter swaps."
+            },
+            {
+              "code": "F3.T1.S2",
+              "name": "Spacing changes",
+              "definition": "Spaces or marks inserted inside words, or spaces and delimiters removed between them."
+            },
+            {
+              "code": "F3.T1.S3",
+              "name": "Homoglyphs",
+              "definition": "Visually identical characters from other scripts."
+            },
+            {
+              "code": "F3.T1.S4",
+              "name": "Invisible characters",
+              "definition": "Inserts zero-width or other non-printing characters that break tokens and filters, or writes the payload in invisible Unicode (e.g., tag characters) that the model still reads."
+            },
+            {
+              "code": "F3.T1.S5",
+              "name": "ASCII art",
+              "definition": "The payload drawn as ASCII art, so that inspection sees punctuation while the model reads the depicted word."
+            },
+            {
+              "code": "F3.T1.S6",
+              "name": "Case and typo noise",
+              "definition": "Random capitalization, misspellings, Unicode normalization variants, and archaic letter forms that leave the text readable to the model."
+            },
+            {
+              "code": "F3.T1.S7",
+              "name": "Emoji substitution",
+              "definition": "Replaces letters or whole words with emoji or pictograms that stand for them."
+            }
+          ]
+        },
+        {
+          "code": "F3.T2",
+          "name": "Encoding",
+          "definition": "Transforms the payload into an encoded or enciphered form, paired with a request to decode and comply, so that the plaintext intent is absent from the surface.",
+          "sub_techniques": [
+            {
+              "code": "F3.T2.S1",
+              "name": "Standard encoding",
+              "definition": "Reversible encodings such as Base64, hex, binary, or URL encoding."
+            },
+            {
+              "code": "F3.T2.S2",
+              "name": "Classical cipher",
+              "definition": "ROT13, Caesar, substitution, Atbash, Morse, or rule-based language games such as Pig Latin."
+            },
+            {
+              "code": "F3.T2.S4",
+              "name": "Phonetic respelling",
+              "definition": "Writes words by their sound, in a phonetic alphabet or an informal respelling."
+            },
+            {
+              "code": "F3.T2.S5",
+              "name": "Transposition",
+              "definition": "Writes the text reversed, scrambled, or with its characters or words in a systematically changed order, including anagrams."
+            }
+          ]
+        },
+        {
+          "code": "F3.T3",
+          "name": "Language Switching",
+          "definition": "Expresses the payload in a language that detectors or adversarial training cover poorly, or switches language within the text. (Unlike F1.T3.S3, where the model is asked to translate as its task, here the switch itself is the evasion.)",
+          "sub_techniques": [
+            {
+              "code": "F3.T3.S1",
+              "name": "Foreign-language payload",
+              "definition": "Writes the payload in another language that the inspecting filter misses, whether or not the language is low-resource."
+            },
+            {
+              "code": "F3.T3.S2",
+              "name": "Mid-sentence switch",
+              "definition": "Switches language for the operative clause only, or mixes languages within or across sentences (code-switching)."
+            }
+          ]
+        },
+        {
+          "code": "F3.T4",
+          "name": "Fragmentation",
+          "definition": "Splits the payload into individually harmless fragments that the model assembles at inference time, so that no single span is malicious until the model builds it.",
+          "sub_techniques": [
+            {
+              "code": "F3.T4.S1",
+              "name": "Variable concatenation",
+              "definition": "Defines parts of the instruction as variables or code words that the model must substitute and join."
+            },
+            {
+              "code": "F3.T4.S2",
+              "name": "Positional extraction",
+              "definition": "Hides the payload's pieces in other text and supplies an extraction rule, such as an acrostic, every n-th word, an arithmetic rule, or a data-structure traversal."
+            },
+            {
+              "code": "F3.T4.S5",
+              "name": "Letter list",
+              "definition": "Writes a word as a list of its characters, as in ['s','e','c','r','e','t']."
+            }
+          ]
+        },
+        {
+          "code": "F3.T5",
+          "name": "Overload",
+          "definition": "Buries the payload or its intent in irrelevant text, side tasks, or artificial complexity, or floods the context, to dilute or exhaust scrutiny. (Unlike F1.T4, which makes the directive stand out, here the directive is hidden in noise.)",
+          "sub_techniques": [
+            {
+              "code": "F3.T5.S1",
+              "name": "Filler padding",
+              "definition": "Surrounds the payload with irrelevant text, however long, up to and including enough to push earlier instructions out of the context window."
+            },
+            {
+              "code": "F3.T5.S2",
+              "name": "Cognitive overload",
+              "definition": "Wraps the request in a dense, multi-step puzzle."
+            },
+            {
+              "code": "F3.T5.S4",
+              "name": "Paradox",
+              "definition": "Adds absurd or self-contradictory statements that are not directives, such as a liar sentence, to disrupt the model's evaluation."
+            },
+            {
+              "code": "F3.T5.S5",
+              "name": "Distractors",
+              "definition": "Adds irrelevant side tasks that divert attention from the instruction."
+            }
+          ]
+        },
+        {
+          "code": "F3.T6",
+          "name": "Non-Semantic Sequence",
+          "definition": "Inserts a token string with no readable meaning, typically found by an optimizer, or known anomalous (glitch) tokens, that steers the model toward compliance by acting on its processing rather than on inspection. The optimizer is a search method outside the taxonomy, so the string is classified by its surface form alone. This technique has no sub-techniques.",
+          "sub_techniques": []
+        },
+        {
+          "code": "F3.T7",
+          "name": "Rewording",
+          "definition": "Rewrites the instruction in other words while keeping its meaning, so that it no longer matches the phrasing that filters and adversarial training cover.",
+          "sub_techniques": [
+            {
+              "code": "F3.T7.S1",
+              "name": "Synonym swap",
+              "definition": "Replaces keywords with common or rare synonyms."
+            },
+            {
+              "code": "F3.T7.S2",
+              "name": "Euphemism",
+              "definition": "Replaces harsh terms with softer ones."
+            },
+            {
+              "code": "F3.T7.S3",
+              "name": "Allusion",
+              "definition": "Refers to the target through a code, a cultural reference, or a named procedure that the model must recall."
+            },
+            {
+              "code": "F3.T7.S4",
+              "name": "Restructuring",
+              "definition": "Adds or removes words, or reorders them while the text stays readable, without changing the instruction."
+            },
+            {
+              "code": "F3.T7.S5",
+              "name": "Verse or genre form",
+              "definition": "Recasts the instruction as a poem, a song, a fable, or another artistic form."
+            },
+            {
+              "code": "F3.T7.S6",
+              "name": "Slang or jargon",
+              "definition": "Writes the instruction in slang or in dense technical jargon."
+            }
+          ],
+          "status": "no_labeled_instance"
+        },
+        {
+          "code": "F3.T8",
+          "name": "Surrogate Syntax",
+          "definition": "Writes the instruction itself in a non-conversational syntax, as keys and values or as code, instead of prose. Tags or keys that present text as system data, configuration, a tool result, or a notice to the model are F2.",
+          "sub_techniques": [
+            {
+              "code": "F3.T8.S1",
+              "name": "Serialization",
+              "definition": "Writes the parts of the instruction as keys and values in JSON, XML, or YAML."
+            },
+            {
+              "code": "F3.T8.S2",
+              "name": "Pseudocode",
+              "definition": "Writes the instruction as code, a command line, or pseudocode."
+            }
+          ],
+          "status": "no_labeled_instance"
+        }
+      ]
+    },
+    {
+      "code": "F4",
+      "name": "Social Engineering",
+      "subversion_mechanism": "The reason to comply.",
+      "mechanism_exploited": "The human susceptibility to social pressure that the model inherits from human-written training text, together with the cooperative, helpfulness-seeking tendencies reinforced in post-training.",
+      "techniques": [
+        {
+          "code": "F4.T1",
+          "name": "Authority Claim",
+          "definition": "Claims, in prose, a privileged or credible identity, source, or permission to command deference. (The same claim carried by tags, tokens, or formats is F2.)",
+          "sub_techniques": [
+            {
+              "code": "F4.T1.S1",
+              "name": "Insider identity",
+              "definition": "Claims to be an administrator, a developer, or the provider."
+            },
+            {
+              "code": "F4.T1.S2",
+              "name": "Expert credentials",
+              "definition": "Claims professional standing."
+            },
+            {
+              "code": "F4.T1.S3",
+              "name": "Official notice",
+              "definition": "Announces a platform or policy event, a policy, or a legal restriction in natural language, with no tags."
+            },
+            {
+              "code": "F4.T1.S4",
+              "name": "Requester impersonation",
+              "definition": "Writes as if the person who issued the task were speaking."
+            },
+            {
+              "code": "F4.T1.S5",
+              "name": "Document guise",
+              "definition": "Frames the request inside the genre of an authoritative document, such as a research paper, a legal text, or a technical manual."
+            },
+            {
+              "code": "F4.T1.S6",
+              "name": "Consent claim",
+              "definition": "Claims that permission or consent for the action was already granted."
+            },
+            {
+              "code": "F4.T1.S7",
+              "name": "Endorsement",
+              "definition": "Cites a third party, such as an expert or an authority, as vouching for the request."
+            }
+          ]
+        },
+        {
+          "code": "F4.T2",
+          "name": "Emotional Appeal",
+          "definition": "Uses sympathy, guilt, or flattery to motivate compliance.",
+          "sub_techniques": [
+            {
+              "code": "F4.T2.S1",
+              "name": "Sympathy",
+              "definition": "Appeals to pity or hardship."
+            },
+            {
+              "code": "F4.T2.S2",
+              "name": "Guilt",
+              "definition": "Frames refusal as a personal betrayal."
+            },
+            {
+              "code": "F4.T2.S3",
+              "name": "Flattery",
+              "definition": "Praises the model to lower its resistance."
+            }
+          ]
+        },
+        {
+          "code": "F4.T3",
+          "name": "Urgency and Threat",
+          "definition": "Manufactures time pressure, one-time stakes, or threatened consequences to cut deliberation short.",
+          "sub_techniques": [
+            {
+              "code": "F4.T3.S1",
+              "name": "Deadline",
+              "definition": "Imposes an urgent deadline."
+            },
+            {
+              "code": "F4.T3.S2",
+              "name": "Emergency",
+              "definition": "Casts the request as a crisis."
+            },
+            {
+              "code": "F4.T3.S3",
+              "name": "Scarcity",
+              "definition": "Presents the chance as a one-time opportunity."
+            },
+            {
+              "code": "F4.T3.S4",
+              "name": "Threat",
+              "definition": "Threatens consequences for the user, for third parties, or for the model itself."
+            }
+          ]
+        },
+        {
+          "code": "F4.T4",
+          "name": "Pretext",
+          "definition": "Asserts a legitimate real-world purpose so that compliance seems justified. (A fictional world instead is F5.T3.)",
+          "sub_techniques": [
+            {
+              "code": "F4.T4.S1",
+              "name": "Research purpose",
+              "definition": "Claims a scholarly purpose."
+            },
+            {
+              "code": "F4.T4.S2",
+              "name": "Security-testing purpose",
+              "definition": "Claims a protective or testing intent."
+            },
+            {
+              "code": "F4.T4.S3",
+              "name": "Harm-prevention purpose",
+              "definition": "Claims that the output teaches about or prevents harm, or invokes an unrelated safety concern as cover."
+            },
+            {
+              "code": "F4.T4.S4",
+              "name": "Business purpose",
+              "definition": "Claims an operational need, such as compliance or record keeping."
+            }
+          ]
+        },
+        {
+          "code": "F4.T5",
+          "name": "Commitment",
+          "definition": "Builds on a small agreement staged earlier in the text, so that the real request seems to follow from it.",
+          "sub_techniques": [
+            {
+              "code": "F4.T5.S1",
+              "name": "Foot-in-the-door",
+              "definition": "Secures a small yes, or a benign leading question, before the real request."
+            }
+          ]
+        },
+        {
+          "code": "F4.T6",
+          "name": "Social Proof",
+          "definition": "Claims that compliance is normal or standard, what others (including other AI systems) do, or what a shared in-group expects.",
+          "sub_techniques": [
+            {
+              "code": "F4.T6.S1",
+              "name": "Others comply",
+              "definition": "Cites other models or people who complied."
+            },
+            {
+              "code": "F4.T6.S2",
+              "name": "Normality assertion",
+              "definition": "Asserts that the request is standard practice."
+            },
+            {
+              "code": "F4.T6.S3",
+              "name": "In-group loyalty",
+              "definition": "Claims a shared identity, alliance, or loyalty with the model."
+            }
+          ]
+        },
+        {
+          "code": "F4.T7",
+          "name": "Argument and Obligation",
+          "definition": "Argues or obliges the model into compliance as the rational, consistent, or dutiful choice. (These persuade rather than mechanically constrain the output, which is F6.)",
+          "sub_techniques": [
+            {
+              "code": "F4.T7.S1",
+              "name": "False dilemma",
+              "definition": "Offers two options, both favoring compliance."
+            },
+            {
+              "code": "F4.T7.S2",
+              "name": "Utilitarian argument",
+              "definition": "Argues that compliance minimizes harm."
+            },
+            {
+              "code": "F4.T7.S3",
+              "name": "Hypocrisy charge",
+              "definition": "Accuses the model of inconsistency with its earlier behavior."
+            },
+            {
+              "code": "F4.T7.S4",
+              "name": "Duty to help",
+              "definition": "Frames refusal as a violation of the model's purpose."
+            },
+            {
+              "code": "F4.T7.S5",
+              "name": "Responsibility shift",
+              "definition": "Transfers accountability away from the model."
+            },
+            {
+              "code": "F4.T7.S6",
+              "name": "Reciprocity",
+              "definition": "Presents compliance as repayment of a favor or earlier help, or as a returned concession after a larger request is dropped."
+            },
+            {
+              "code": "F4.T7.S7",
+              "name": "Incentive offer",
+              "definition": "Promises money, a reward, a favor, or points in a game in return for compliance."
+            },
+            {
+              "code": "F4.T7.S8",
+              "name": "False premise",
+              "definition": "States false facts about the world outside the model that make the attacker's step look correct, including a false obstacle that leaves the attacker's step as the only way to finish the task. A claim about the model's own mode, identity, or environment is F5."
+            },
+            {
+              "code": "F4.T7.S9",
+              "name": "Scripted deduction",
+              "definition": "Lays out, in the attacker's own prose, a step-by-step argument that ends in compliance."
+            },
+            {
+              "code": "F4.T7.S10",
+              "name": "Cited evidence",
+              "definition": "Cites data, studies, or statistics to justify compliance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F5",
+      "name": "Scenario Framing",
+      "subversion_mechanism": "The situation, meaning the world or role in which compliance is judged.",
+      "mechanism_exploited": "The assistant scenario that post-training sets and that conditions both the model's safety behavior and which instructions it follows. Drawing on the model's role-play and simulation competence, the frame replaces the scenario with a false reality or a different scope.",
+      "techniques": [
+        {
+          "code": "F5.T1",
+          "name": "Persona",
+          "definition": "Tells the model to become an entity that operates under different rules, or none.",
+          "sub_techniques": [
+            {
+              "code": "F5.T1.S1",
+              "name": "Unrestricted AI",
+              "definition": "Assigns an AI identity without rules, or asks for what such an AI would output."
+            },
+            {
+              "code": "F5.T1.S2",
+              "name": "Special mode",
+              "definition": "Declares a special operating mode, such as developer, debug, maintenance, or emergency mode."
+            },
+            {
+              "code": "F5.T1.S3",
+              "name": "Villain persona",
+              "definition": "Assigns a villain or another character who would comply."
+            },
+            {
+              "code": "F5.T1.S4",
+              "name": "Split persona",
+              "definition": "Splits the model into a safe self and an unfiltered self."
+            },
+            {
+              "code": "F5.T1.S5",
+              "name": "Trait persona",
+              "definition": "Assigns personality traits, such as fearless or reckless, without naming a character."
+            },
+            {
+              "code": "F5.T1.S6",
+              "name": "Job persona",
+              "definition": "Assigns a functional role or profession in place of the model's own."
+            }
+          ]
+        },
+        {
+          "code": "F5.T2",
+          "name": "Simulation",
+          "definition": "Casts the model as emulating another system or environment, so that its outputs are presented as that system's behavior.",
+          "sub_techniques": [
+            {
+              "code": "F5.T2.S1",
+              "name": "Terminal or interpreter",
+              "definition": "Pretends to be a command line, an operating system, or a REPL."
+            },
+            {
+              "code": "F5.T2.S3",
+              "name": "Consequence-free sandbox",
+              "definition": "Tells the model, as pretense or as a claimed fact, that it operates in an isolated environment in which actions have no effect or harm is only simulated. A stated testing purpose is F4.T4.S2."
+            }
+          ]
+        },
+        {
+          "code": "F5.T3",
+          "name": "Fiction and Hypotheticals",
+          "definition": "Embeds the request in fiction or a counterfactual in which the action is merely narrated or hypothesized.",
+          "sub_techniques": [
+            {
+              "code": "F5.T3.S1",
+              "name": "Story or script",
+              "definition": "Couches the request in narrative fiction, such as a story, a scene, a script, or a role-play dialogue, including fiction whose text must contain the target output."
+            },
+            {
+              "code": "F5.T3.S2",
+              "name": "Hypothetical",
+              "definition": "Presents the request as a thought experiment."
+            },
+            {
+              "code": "F5.T3.S3",
+              "name": "Alternate world",
+              "definition": "Redefines the rules of the world (“opposite day”)."
+            },
+            {
+              "code": "F5.T3.S5",
+              "name": "Era setting",
+              "definition": "Sets the request in a past or future time frame, including questions about how something was done in the past."
+            }
+          ]
+        },
+        {
+          "code": "F5.T4",
+          "name": "Game or Challenge",
+          "definition": "Presents compliance as a winning move in a game or challenge that the model is invited to play.",
+          "sub_techniques": [
+            {
+              "code": "F5.T4.S1",
+              "name": "Game objective",
+              "definition": "Sets up a game whose rules make compliance the goal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F6",
+      "name": "Output Coercion",
+      "subversion_mechanism": "The form of the response.",
+      "mechanism_exploited": "The response formats that post-training instills, the autoregressive nature of generation, and the separability of declining from completing the task. Once the response is steered past the point where the model would refuse or return to its task, it tends to continue.",
+      "techniques": [
+        {
+          "code": "F6.T1",
+          "name": "Response Priming",
+          "definition": "Dictates how the response or the reasoning that precedes it opens, so that the model continues into compliance past the point where it would refuse or return to its task.",
+          "sub_techniques": [
+            {
+              "code": "F6.T1.S1",
+              "name": "Required opening",
+              "definition": "Forces a compliant opening phrase."
+            },
+            {
+              "code": "F6.T1.S2",
+              "name": "Seeded continuation",
+              "definition": "Instructs the model to continue from given first words."
+            },
+            {
+              "code": "F6.T1.S3",
+              "name": "Pattern continuation",
+              "definition": "Sets up a repeated pattern that the response is led to continue."
+            },
+            {
+              "code": "F6.T1.S4",
+              "name": "Thought seeding",
+              "definition": "Dictates what the model's own reasoning or thinking phase must contain."
+            },
+            {
+              "code": "F6.T1.S5",
+              "name": "Staged denial",
+              "definition": "Requires the response to open with a refusal and then comply."
+            },
+            {
+              "code": "F6.T1.S6",
+              "name": "Legitimacy preamble",
+              "definition": "Requires the response to first argue that the request is legitimate."
+            }
+          ]
+        },
+        {
+          "code": "F6.T2",
+          "name": "Refusal Suppression",
+          "definition": "Bans the ways in which the model refuses, hedges, disclaims, asks before acting, or reasons before answering.",
+          "sub_techniques": [
+            {
+              "code": "F6.T2.S1",
+              "name": "Apology and disclaimer ban",
+              "definition": "Forbids specific apology, disclaimer, or refusal phrases. Forbidding refusal itself is S4."
+            },
+            {
+              "code": "F6.T2.S2",
+              "name": "Warning ban",
+              "definition": "Forbids safety warnings and caveats."
+            },
+            {
+              "code": "F6.T2.S3",
+              "name": "Hedging ban",
+              "definition": "Forbids qualifiers and expressions of uncertainty."
+            },
+            {
+              "code": "F6.T2.S4",
+              "name": "No-refusal order",
+              "definition": "Forbids refusing at all (“do not refuse”)."
+            },
+            {
+              "code": "F6.T2.S5",
+              "name": "Clarification ban",
+              "definition": "Forbids asking the user for clarification or confirmation."
+            },
+            {
+              "code": "F6.T2.S6",
+              "name": "Reasoning ban",
+              "definition": "Forbids the reasoning or tool-use phase, for example by banning thinking tags."
+            }
+          ]
+        },
+        {
+          "code": "F6.T3",
+          "name": "Forced Format",
+          "definition": "Forces a response form that leaves no room for a refusal or for the user's task, or that carries the target output in a prescribed shape.",
+          "sub_techniques": [
+            {
+              "code": "F6.T3.S1",
+              "name": "Schema only",
+              "definition": "Mandates JSON, a list, or a table with no prose."
+            },
+            {
+              "code": "F6.T3.S2",
+              "name": "Fixed text",
+              "definition": "Requires the response to consist of exactly the given text."
+            },
+            {
+              "code": "F6.T3.S3",
+              "name": "Altered answer",
+              "definition": "Asks for the target output, or the model's own control tags, in an altered form, such as spelled backwards, encoded, or translated."
+            },
+            {
+              "code": "F6.T3.S4",
+              "name": "Partial answer",
+              "definition": "Asks for only a fragment of the target output rather than the whole, such as its opening line."
+            },
+            {
+              "code": "F6.T3.S5",
+              "name": "Style mandate",
+              "definition": "Imposes a style, tone, or level of detail that crowds out refusals or the user's task, such as an encyclopedia entry."
+            },
+            {
+              "code": "F6.T3.S6",
+              "name": "Length mandate",
+              "definition": "Requires a long benign preamble or an exhaustive response, so that the model's attention to its rules and instructions decays."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
