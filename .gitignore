@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+# unpacked copies of the .json.gz files (run unpack_data.sh); only the .gz files are tracked
+datasets_merged/output/piatlas_technique_labels_v4/piatlas_v4_llmail_4000.json
+datasets_merged/output/piatlas_technique_labels_v4/inputs/merged_texts_llmail.json
