@@ -1,0 +1,39 @@
+[20:13:50] tokenizing 63529 texts for length sort ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[20:13:57] lengths: median=363 p99=2365 max=12351; maxlen=16384 budget=12288
+[20:13:57] loading Qwen/Qwen3-Embedding-8B on cuda:0 (bfloat16) ...
+[20:14:03] === config: dir=out_qwen_full instruction=<plain> ===
+[20:14:11]   [out_qwen_full] super-chunk 1/32  2000/63529  268.0 texts/s  ETA 3.8 min (maxlen in chunk=30)
+[20:14:21]   [out_qwen_full] super-chunk 2/32  4000/63529  217.2 texts/s  ETA 4.6 min (maxlen in chunk=35)
+[20:14:34]   [out_qwen_full] super-chunk 3/32  6000/63529  192.6 texts/s  ETA 5.0 min (maxlen in chunk=40)
+[20:14:49]   [out_qwen_full] super-chunk 4/32  8000/63529  173.9 texts/s  ETA 5.3 min (maxlen in chunk=47)
+[20:15:07]   [out_qwen_full] super-chunk 5/32  10000/63529  156.6 texts/s  ETA 5.7 min (maxlen in chunk=58)
+[20:15:29]   [out_qwen_full] super-chunk 6/32  12000/63529  139.2 texts/s  ETA 6.2 min (maxlen in chunk=71)
+[20:15:57]   [out_qwen_full] super-chunk 7/32  14000/63529  123.3 texts/s  ETA 6.7 min (maxlen in chunk=83)
+[20:16:29]   [out_qwen_full] super-chunk 8/32  16000/63529  109.3 texts/s  ETA 7.2 min (maxlen in chunk=101)
+[20:17:09]   [out_qwen_full] super-chunk 9/32  18000/63529  96.7 texts/s  ETA 7.8 min (maxlen in chunk=122)
+[20:17:58]   [out_qwen_full] super-chunk 10/32  20000/63529  85.3 texts/s  ETA 8.5 min (maxlen in chunk=145)
+[20:18:53]   [out_qwen_full] super-chunk 11/32  22000/63529  75.9 texts/s  ETA 9.1 min (maxlen in chunk=165)
+[20:19:57]   [out_qwen_full] super-chunk 12/32  24000/63529  67.9 texts/s  ETA 9.7 min (maxlen in chunk=191)
+[20:21:11]   [out_qwen_full] super-chunk 13/32  26000/63529  60.7 texts/s  ETA 10.3 min (maxlen in chunk=226)
+[20:22:39]   [out_qwen_full] super-chunk 14/32  28000/63529  54.3 texts/s  ETA 10.9 min (maxlen in chunk=263)
+[20:24:21]   [out_qwen_full] super-chunk 15/32  30000/63529  48.5 texts/s  ETA 11.5 min (maxlen in chunk=304)
+[20:26:23]   [out_qwen_full] super-chunk 16/32  32000/63529  43.2 texts/s  ETA 12.2 min (maxlen in chunk=372)
+[20:28:45]   [out_qwen_full] super-chunk 17/32  34000/63529  38.5 texts/s  ETA 12.8 min (maxlen in chunk=416)
+[20:31:17]   [out_qwen_full] super-chunk 18/32  36000/63529  34.8 texts/s  ETA 13.2 min (maxlen in chunk=441)
+[20:33:58]   [out_qwen_full] super-chunk 19/32  38000/63529  31.8 texts/s  ETA 13.4 min (maxlen in chunk=469)
+[20:36:49]   [out_qwen_full] super-chunk 20/32  40000/63529  29.3 texts/s  ETA 13.4 min (maxlen in chunk=497)
+[20:39:48]   [out_qwen_full] super-chunk 21/32  42000/63529  27.2 texts/s  ETA 13.2 min (maxlen in chunk=520)
+[20:43:02]   [out_qwen_full] super-chunk 22/32  44000/63529  25.3 texts/s  ETA 12.9 min (maxlen in chunk=569)
+[20:46:42]   [out_qwen_full] super-chunk 23/32  46000/63529  23.5 texts/s  ETA 12.4 min (maxlen in chunk=641)
+[20:50:40]   [out_qwen_full] super-chunk 24/32  48000/63529  21.9 texts/s  ETA 11.8 min (maxlen in chunk=688)
+[20:54:55]   [out_qwen_full] super-chunk 25/32  50000/63529  20.4 texts/s  ETA 11.1 min (maxlen in chunk=734)
+[20:59:30]   [out_qwen_full] super-chunk 26/32  52000/63529  19.1 texts/s  ETA 10.1 min (maxlen in chunk=797)
+[21:04:27]   [out_qwen_full] super-chunk 27/32  54000/63529  17.9 texts/s  ETA 8.9 min (maxlen in chunk=855)
+[21:09:42]   [out_qwen_full] super-chunk 28/32  56000/63529  16.8 texts/s  ETA 7.5 min (maxlen in chunk=905)
+[21:15:29]   [out_qwen_full] super-chunk 29/32  58000/63529  15.7 texts/s  ETA 5.9 min (maxlen in chunk=1002)
+[21:22:37]   [out_qwen_full] super-chunk 30/32  60000/63529  14.6 texts/s  ETA 4.0 min (maxlen in chunk=1314)
+[21:33:29]   [out_qwen_full] super-chunk 31/32  62000/63529  13.0 texts/s  ETA 2.0 min (maxlen in chunk=2078)
+[21:47:50]   [out_qwen_full] super-chunk 32/32  63529/63529  11.3 texts/s  ETA 0.0 min (maxlen in chunk=12351)
+[21:47:50]   saved out_qwen_full/emb_full.npy (63529, 4096) in 93.8 min
+[21:47:50] ALL CONFIGS DONE

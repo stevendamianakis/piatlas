@@ -1,0 +1,28 @@
+plain PCA k 8
+<venv>/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+plain UMAP k 9
+<venv>/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+plain PCA50-UMAP k 10
+plain PCA50-tSNE k 8
+plain tSNE k 8
+steer PCA k 8
+<venv>/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+steer UMAP k 11
+<venv>/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+steer PCA50-UMAP k 10
+steer PCA50-tSNE k 8
+steer tSNE k 8
+qwen PCA k 8
+<venv>/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+qwen UMAP k 9
+<venv>/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+qwen PCA50-UMAP k 8
+qwen PCA50-tSNE k 8
+qwen tSNE k 9
+saved dr_sweep_labels.npz

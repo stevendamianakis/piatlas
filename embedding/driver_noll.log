@@ -1,0 +1,14 @@
+[noll 01:19:12] filtering embeddings (drop LLMail-Inject) ...
+  out_f2llm_plain_full (63529, 5120) -> out_f2llm_plain_noll (4663, 5120)
+  out_f2llm_steer_full (63529, 5120) -> out_f2llm_steer_noll (4663, 5120)
+  out_qwen_full (63529, 4096) -> out_qwen_noll (4663, 4096)
+[noll 01:23:46]   out_f2llm_plain_noll cluster_viz ok
+[noll 01:25:40]   out_f2llm_plain_noll full_viz ok
+[noll 01:25:40]   out_f2llm_plain_noll finalize ok
+[noll 01:30:08]   out_f2llm_steer_noll cluster_viz ok
+[noll 01:31:55]   out_f2llm_steer_noll full_viz ok
+[noll 01:31:55]   out_f2llm_steer_noll finalize ok
+[noll 01:35:56]   out_qwen_noll cluster_viz ok
+[noll 01:37:45]   out_qwen_noll full_viz ok
+[noll 01:37:46]   out_qwen_noll finalize ok
+[noll 01:37:46] ALL DONE

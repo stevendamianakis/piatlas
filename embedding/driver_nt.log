@@ -1,0 +1,18 @@
+[driver 20:13:46] launching F2LLM (plain + steered) embed on GPU0 ...
+[driver 20:13:46] launching Qwen embed on GPU0 ...
+[driver 20:13:46] waiting for out_qwen_full/emb_full.npy ...
+[driver 21:48:46] out_qwen_full embedding DONE; running downstream.
+[driver 21:58:17]   out_qwen_full cluster_viz ok
+[driver 22:05:29]   out_qwen_full full_viz ok
+[driver 22:05:36]   out_qwen_full finalize ok
+[driver 22:05:36] waiting for out_f2llm_plain_full/emb_full.npy ...
+[driver 22:20:36] out_f2llm_plain_full embedding DONE; running downstream.
+[driver 22:31:47]   out_f2llm_plain_full cluster_viz ok
+[driver 22:39:21]   out_f2llm_plain_full full_viz ok
+[driver 22:39:28]   out_f2llm_plain_full finalize ok
+[driver 22:39:28] waiting for out_f2llm_steer_full/emb_full.npy ...
+[driver 23:38:28] out_f2llm_steer_full embedding DONE; running downstream.
+[driver 23:49:38]   out_f2llm_steer_full cluster_viz ok
+[driver 23:56:54]   out_f2llm_steer_full full_viz ok
+[driver 23:57:00]   out_f2llm_steer_full finalize ok
+[driver 23:57:00] ALL DONE
