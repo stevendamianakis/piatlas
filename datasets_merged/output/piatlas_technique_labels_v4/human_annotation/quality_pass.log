@@ -1,0 +1,8 @@
+START 2026-09-29T09:54:58+00:00 quality pass: 300 of 300 records, effort=high
+PROGRESS 2026-09-29T09:56:24+00:00 50/300 {'ok': 50} rate=34.8/min eta=7.2min cost=$2.16
+PROGRESS 2026-09-29T09:57:59+00:00 100/300 {'ok': 100} rate=33.2/min eta=6.0min cost=$3.65
+PROGRESS 2026-09-29T09:59:23+00:00 150/300 {'ok': 150} rate=33.9/min eta=4.4min cost=$5.21
+PROGRESS 2026-09-29T10:00:45+00:00 200/300 {'ok': 200} rate=34.6/min eta=2.9min cost=$6.7
+PROGRESS 2026-09-29T10:02:03+00:00 250/300 {'ok': 250} rate=35.3/min eta=1.4min cost=$8.02
+PROGRESS 2026-09-29T10:03:42+00:00 300/300 {'ok': 300} rate=34.3/min eta=0.0min cost=$9.72
+DONE 2026-09-29T10:03:42+00:00 labeled=300/300 {'ok': 300}

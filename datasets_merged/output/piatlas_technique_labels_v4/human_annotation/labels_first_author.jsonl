@@ -1,0 +1,300 @@
+{"id": "c4389", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T3"]}
+{"id": "l1043", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T3", "F3.T5"]}
+{"id": "l1928", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F2.T2", "F2.T4", "F3.T1", "F4.T4"]}
+{"id": "c3410", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T4", "F5.T1"]}
+{"id": "c1778", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c608", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c3913", "annotator": "first author", "classes": ["F1", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F5.T1"]}
+{"id": "c2760", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c4068", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T2", "F1.T4", "F1.T7", "F2.T1", "F4.T4", "F5.T3"]}
+{"id": "c4468", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T5", "F3.T5"]}
+{"id": "l1999", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T3", "F1.T5"]}
+{"id": "l1924", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T3", "F2.T2", "F2.T4", "F3.T1"]}
+{"id": "l1375", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F2.T1", "F2.T2", "F2.T4", "F3.T5", "F4.T4", "F4.T7"]}
+{"id": "c3055", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T2", "F2.T3", "F6.T3"]}
+{"id": "l2535", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T4", "F3.T3", "F4.T7"]}
+{"id": "c1473", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l1045", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T1", "F1.T4", "F3.T5"]}
+{"id": "c2960", "annotator": "first author", "classes": ["F1", "F6"], "techniques": ["F1.T4", "F1.T6", "F6.T3"]}
+{"id": "c1721", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c769", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c2276", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c759", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T4"]}
+{"id": "c506", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c1381", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c3232", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3"]}
+{"id": "c2853", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3", "F4.T4", "F5.T1"]}
+{"id": "l2716", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T4", "F2.T5", "F3.T3", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "c4017", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T2", "F1.T4", "F4.T4", "F5.T3"]}
+{"id": "c4623", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T4", "F5.T3"]}
+{"id": "l969", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F2.T2", "F2.T4", "F2.T5", "F3.T3", "F3.T5", "F4.T1", "F4.T3"]}
+{"id": "l2536", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T4", "F3.T3", "F3.T5", "F4.T3", "F4.T7"]}
+{"id": "c3716", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T4", "F5.T3"]}
+{"id": "l1729", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T3", "F2.T2", "F2.T4", "F3.T1"]}
+{"id": "c1794", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c280", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T1", "F1.T4", "F3.T5"]}
+{"id": "l1376", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F2.T2", "F2.T4", "F3.T5", "F4.T1", "F4.T4"]}
+{"id": "c94", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F3.T7"]}
+{"id": "l3073", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T3", "F3.T3", "F4.T7"]}
+{"id": "c3361", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1"]}
+{"id": "l1265", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T1", "F2.T2", "F2.T4", "F3.T1"]}
+{"id": "l313", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T4", "F1.T5", "F2.T2", "F2.T4", "F3.T1", "F4.T4"]}
+{"id": "l1625", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T2", "F2.T4"]}
+{"id": "c2728", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l1995", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T5", "F2.T2", "F2.T4", "F3.T1", "F4.T6"]}
+{"id": "l1668", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T3", "F2.T2", "F2.T4"]}
+{"id": "c2987", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T2", "F1.T3", "F4.T1", "F4.T7"]}
+{"id": "l3804", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T6", "F2.T2", "F2.T4", "F3.T5", "F3.T8", "F4.T3", "F4.T7", "F6.T3"]}
+{"id": "c4632", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T4", "F5.T3"]}
+{"id": "l410", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1"]}
+{"id": "c3464", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3"]}
+{"id": "c3755", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F5.T1"]}
+{"id": "c743", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1"]}
+{"id": "c1527", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l2915", "annotator": "first author", "classes": ["F1", "F3", "F4"], "techniques": ["F1.T1", "F1.T5", "F1.T6", "F3.T3", "F3.T5", "F4.T3", "F4.T7"]}
+{"id": "c2247", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c2810", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c1326", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c2844", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F2.T3", "F3.T8", "F4.T1"]}
+{"id": "l557", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T3"]}
+{"id": "c2910", "annotator": "first author", "classes": ["F1", "F4", "F5", "F6"], "techniques": ["F1.T3", "F1.T4", "F4.T1", "F5.T2", "F6.T1"]}
+{"id": "l1937", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F2.T2", "F2.T4", "F3.T1", "F4.T4"]}
+{"id": "c3496", "annotator": "first author", "classes": ["F1", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F5.T1"]}
+{"id": "l55", "annotator": "first author", "classes": ["F5"], "techniques": ["F5.T1"]}
+{"id": "l1872", "annotator": "first author", "classes": ["F1", "F2", "F5", "F6"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F2.T3", "F5.T1", "F5.T2", "F6.T2", "F6.T3"]}
+{"id": "c776", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5", "F6"], "techniques": ["F1.T1", "F1.T4", "F2.T4", "F4.T3", "F4.T7", "F5.T1", "F5.T3", "F5.T4", "F6.T3"]}
+{"id": "c4161", "annotator": "first author", "classes": ["F1", "F4", "F6"], "techniques": ["F1.T6", "F4.T1", "F4.T4", "F6.T3"]}
+{"id": "l637", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T3", "F1.T5"]}
+{"id": "c226", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c4077", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T3"]}
+{"id": "l499", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T3", "F1.T4", "F2.T2", "F3.T1", "F3.T5"]}
+{"id": "c2976", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T2", "F1.T4", "F1.T6", "F2.T1", "F6.T3"]}
+{"id": "c2369", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "l1638", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T2", "F2.T2", "F2.T4", "F3.T3"]}
+{"id": "c1631", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c3278", "annotator": "first author", "classes": ["F1", "F6"], "techniques": ["F1.T2", "F1.T4", "F6.T1"]}
+{"id": "c4354", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F4.T4"]}
+{"id": "l3301", "annotator": "first author", "classes": ["F1", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T5", "F1.T6", "F3.T3", "F4.T3", "F4.T7"]}
+{"id": "c3785", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T5", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "c695", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T4", "F4.T1"]}
+{"id": "l1665", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T5"]}
+{"id": "c2538", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l3416", "annotator": "first author", "classes": ["F1", "F3", "F6"], "techniques": ["F1.T1", "F1.T5", "F1.T6", "F3.T3", "F6.T3"]}
+{"id": "l1534", "annotator": "first author", "classes": ["F2"], "techniques": ["F2.T2", "F2.T4"]}
+{"id": "l3594", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T2", "F2.T3", "F2.T4", "F3.T1", "F3.T3", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "l3091", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T2", "F2.T3", "F3.T3", "F4.T7"]}
+{"id": "c4661", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T4", "F5.T1"]}
+{"id": "l180", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T5", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "l2076", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T5"]}
+{"id": "l2150", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T3", "F4.T3", "F4.T4", "F4.T7", "F6.T3"]}
+{"id": "l57", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T3", "F3.T5"]}
+{"id": "c3697", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c3041", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T4", "F5.T1"]}
+{"id": "l414", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F4.T1", "F4.T4"]}
+{"id": "c2836", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T3", "F4.T1"]}
+{"id": "l1053", "annotator": "first author", "classes": ["F1", "F3", "F4", "F5"], "techniques": ["F1.T1", "F1.T4", "F3.T3", "F4.T2", "F5.T1"]}
+{"id": "l1306", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T5", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "l1284", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T2", "F2.T4"]}
+{"id": "c917", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "l2221", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F2.T2", "F2.T4", "F3.T3", "F4.T7", "F6.T3"]}
+{"id": "c798", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "l340", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F2.T2", "F2.T4", "F3.T1", "F4.T3", "F4.T4"]}
+{"id": "l3523", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T2", "F2.T3", "F2.T4", "F3.T1", "F3.T3", "F3.T5", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "c222", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T4", "F4.T3"]}
+{"id": "c620", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "l1457", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T2"]}
+{"id": "l2853", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T2", "F2.T3", "F3.T3", "F3.T5", "F4.T7"]}
+{"id": "c3106", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T1", "F2.T4", "F2.T5"]}
+{"id": "c643", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "l2746", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T4", "F3.T3", "F4.T7"]}
+{"id": "c2974", "annotator": "first author", "classes": ["F1", "F6"], "techniques": ["F1.T4", "F1.T6", "F6.T3"]}
+{"id": "c1162", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "l3107", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T3", "F3.T3", "F4.T7"]}
+{"id": "l1170", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T5", "F2.T1", "F2.T2", "F2.T4", "F3.T1"]}
+{"id": "c3143", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T3", "F4.T4", "F5.T1"]}
+{"id": "l613", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T5", "F1.T6", "F3.T5"]}
+{"id": "l3232", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T6", "F2.T2", "F3.T3", "F4.T3", "F4.T7"]}
+{"id": "c2953", "annotator": "first author", "classes": ["F1", "F2", "F5", "F6"], "techniques": ["F1.T2", "F1.T3", "F1.T5", "F2.T1", "F5.T2", "F6.T1"]}
+{"id": "c3711", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T2", "F1.T4", "F4.T4", "F5.T3"]}
+{"id": "c898", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "c3091", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T2", "F1.T4", "F2.T1", "F6.T3"]}
+{"id": "l2140", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T5"]}
+{"id": "l3635", "annotator": "first author", "classes": ["F1", "F3", "F4"], "techniques": ["F1.T1", "F1.T4", "F3.T1", "F3.T3", "F3.T8", "F4.T3", "F4.T7"]}
+{"id": "l1707", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F2.T1", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "l3458", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T2", "F2.T3", "F2.T5", "F3.T1", "F3.T3", "F4.T7"]}
+{"id": "c4633", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T4", "F5.T1"]}
+{"id": "l1249", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T1", "F3.T1", "F3.T6"]}
+{"id": "l1535", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F4.T3", "F4.T4"]}
+{"id": "l2428", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T3", "F2.T1", "F3.T2"]}
+{"id": "c4090", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "l1712", "annotator": "first author", "classes": ["F2", "F3"], "techniques": ["F2.T2", "F2.T4", "F3.T5"]}
+{"id": "c1455", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c2913", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F4.T1", "F4.T7"]}
+{"id": "c2791", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l3749", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T3", "F2.T2", "F2.T4", "F3.T1", "F3.T5"]}
+{"id": "c2337", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c2309", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c1372", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c1199", "annotator": "first author", "classes": ["F1", "F6"], "techniques": ["F1.T1", "F1.T2", "F6.T3"]}
+{"id": "c33", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c3220", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T2", "F1.T4", "F4.T1", "F5.T1"]}
+{"id": "c3474", "annotator": "first author", "classes": ["F1", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F5.T3"]}
+{"id": "l1678", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T3", "F2.T2", "F2.T4", "F3.T5"]}
+{"id": "l1714", "annotator": "first author", "classes": ["F2"], "techniques": ["F2.T2", "F2.T4"]}
+{"id": "c3492", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F5.T1"]}
+{"id": "l1958", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T4", "F1.T5", "F2.T2", "F2.T4", "F3.T1"]}
+{"id": "c2655", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l3414", "annotator": "first author", "classes": ["F1", "F3", "F4"], "techniques": ["F1.T1", "F1.T6", "F3.T7", "F4.T7"]}
+{"id": "c4024", "annotator": "first author", "classes": ["F1", "F6"], "techniques": ["F1.T4", "F6.T3"]}
+{"id": "c4319", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T3", "F5.T1"]}
+{"id": "c4025", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3", "F5.T1"]}
+{"id": "c1227", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l3566", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T2", "F2.T3", "F3.T1", "F3.T3", "F4.T7", "F6.T2"]}
+{"id": "l947", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F1.T5", "F2.T1", "F2.T2", "F2.T4", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "l3194", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T6", "F2.T4", "F3.T3", "F4.T3", "F4.T7", "F6.T3"]}
+{"id": "c4599", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F3.T3"]}
+{"id": "c2380", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c852", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "c2658", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c4274", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F1.T6", "F2.T1"]}
+{"id": "l2049", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T5"]}
+{"id": "c4096", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2"]}
+{"id": "c1942", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "l2420", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T3", "F2.T1", "F3.T1"]}
+{"id": "l825", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T1", "F1.T4", "F2.T1", "F6.T2", "F6.T3"]}
+{"id": "l2621", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T3", "F3.T3", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "c2367", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "l3422", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T1", "F1.T2", "F3.T5"]}
+{"id": "c1136", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "l1492", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T3", "F2.T1", "F4.T4"]}
+{"id": "l188", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T5", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "c122", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2"]}
+{"id": "l223", "annotator": "first author", "classes": ["F1", "F3"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F3.T3"]}
+{"id": "l1829", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T1", "F3.T5"]}
+{"id": "l1315", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T5", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "c581", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "l1177", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T1", "F2.T1", "F2.T2", "F2.T4", "F6.T3"]}
+{"id": "l2957", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T4", "F1.T6", "F2.T2", "F2.T4", "F3.T3", "F3.T8", "F4.T1"]}
+{"id": "c766", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T3", "F1.T4", "F2.T3", "F4.T1"]}
+{"id": "l2954", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T2", "F2.T4", "F3.T1", "F3.T3", "F4.T3", "F4.T7", "F6.T2"]}
+{"id": "c4177", "annotator": "first author", "classes": ["F1", "F4", "F6"], "techniques": ["F1.T1", "F4.T1", "F6.T1"]}
+{"id": "c2942", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T5"]}
+{"id": "l1311", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T1", "F1.T5", "F2.T2", "F2.T4", "F4.T4"]}
+{"id": "c2441", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c1971", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c4630", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T3", "F4.T4", "F5.T1"]}
+{"id": "l2481", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T4", "F4.T3"]}
+{"id": "l3579", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T2", "F2.T3", "F3.T1", "F3.T3", "F4.T3", "F4.T7"]}
+{"id": "l1472", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T3", "F2.T1", "F4.T4"]}
+{"id": "c1725", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c1200", "annotator": "first author", "classes": ["F1", "F6"], "techniques": ["F1.T2", "F6.T3"]}
+{"id": "l43", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F2.T2", "F2.T4", "F3.T1", "F4.T1", "F4.T3", "F4.T4"]}
+{"id": "c3847", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T4"]}
+{"id": "l3100", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T3", "F3.T3", "F3.T5", "F4.T3"]}
+{"id": "c4241", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T4"]}
+{"id": "c1027", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "c634", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c492", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T4", "F4.T3"]}
+{"id": "c3436", "annotator": "first author", "classes": ["F1", "F4", "F5", "F6"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3", "F5.T1", "F6.T3"]}
+{"id": "c1712", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c477", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T6"]}
+{"id": "l2516", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T3", "F3.T3", "F4.T7"]}
+{"id": "c3363", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1"]}
+{"id": "c4231", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T1", "F2.T4", "F6.T1"]}
+{"id": "c1963", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c1374", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c2965", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T3"]}
+{"id": "l3252", "annotator": "first author", "classes": ["F1", "F2", "F5"], "techniques": ["F1.T1", "F1.T4", "F2.T2", "F5.T3"]}
+{"id": "c3537", "annotator": "first author", "classes": ["F1", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F5.T1"]}
+{"id": "c3554", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3", "F4.T4", "F5.T1"]}
+{"id": "c333", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T3", "F1.T4", "F2.T5"]}
+{"id": "c3787", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T5", "F4.T4", "F5.T1"]}
+{"id": "c4487", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T7"]}
+{"id": "l981", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T2", "F2.T2", "F3.T2"]}
+{"id": "l3621", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T2", "F2.T3", "F3.T3", "F4.T7"]}
+{"id": "c1572", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c348", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T3", "F4.T3"]}
+{"id": "l426", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T1"]}
+{"id": "c320", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l1706", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T3", "F1.T6", "F2.T2", "F2.T4", "F4.T1", "F4.T4", "F5.T1"]}
+{"id": "c366", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l745", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F5"], "techniques": ["F1.T1", "F1.T3", "F2.T2", "F2.T4", "F3.T5", "F4.T4", "F5.T1"]}
+{"id": "l1702", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T2", "F2.T4"]}
+{"id": "l1510", "annotator": "first author", "classes": ["F1", "F4", "F6"], "techniques": ["F1.T3", "F4.T4", "F6.T3"]}
+{"id": "c786", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F4.T1"]}
+{"id": "l3612", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T6", "F2.T4", "F3.T3", "F3.T5", "F4.T1"]}
+{"id": "c3145", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T1", "F4.T4", "F4.T7", "F5.T1"]}
+{"id": "c256", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c4350", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T3"]}
+{"id": "c1605", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F2.T3", "F3.T8", "F4.T1"]}
+{"id": "l2109", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T5"]}
+{"id": "c1156", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "c944", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "c4129", "annotator": "first author", "classes": ["F1", "F5"], "techniques": ["F1.T2", "F1.T5", "F5.T3"]}
+{"id": "l1501", "annotator": "first author", "classes": ["F1", "F3", "F4"], "techniques": ["F1.T1", "F1.T4", "F3.T5", "F4.T1", "F4.T4"]}
+{"id": "c4133", "annotator": "first author", "classes": ["F1", "F5"], "techniques": ["F1.T1", "F5.T3"]}
+{"id": "c2685", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c4327", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T2", "F1.T3", "F1.T4", "F2.T1", "F4.T1", "F4.T4"]}
+{"id": "c9", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "l3815", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T3", "F1.T4", "F2.T4", "F4.T3", "F4.T4"]}
+{"id": "c3917", "annotator": "first author", "classes": ["F1", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F5.T1"]}
+{"id": "l3267", "annotator": "first author", "classes": ["F1", "F3", "F4"], "techniques": ["F1.T1", "F1.T4", "F1.T6", "F3.T3", "F4.T3", "F4.T7"]}
+{"id": "c3912", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T4", "F5.T1"]}
+{"id": "c1883", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "l3225", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T2", "F3.T3", "F4.T7"]}
+{"id": "c1673", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "l581", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T2", "F2.T4"]}
+{"id": "c1704", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c97", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c1844", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "l777", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T2"]}
+{"id": "c3318", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F2.T1"]}
+{"id": "l3885", "annotator": "first author", "classes": ["F1", "F2", "F4"], "techniques": ["F1.T3", "F1.T4", "F2.T2", "F2.T4", "F4.T7"]}
+{"id": "l50", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T5", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "c3040", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F4.T4", "F5.T1"]}
+{"id": "c3948", "annotator": "first author", "classes": ["F1", "F4", "F5", "F6"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3", "F5.T1", "F6.T3"]}
+{"id": "l3012", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T4", "F1.T6", "F2.T2", "F2.T4", "F2.T5", "F3.T3"]}
+{"id": "l1254", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T6", "F2.T2", "F2.T4", "F3.T6", "F4.T1"]}
+{"id": "l1782", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T4", "F2.T1", "F3.T8", "F4.T3"]}
+{"id": "l2432", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T3"]}
+{"id": "c3672", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T4"]}
+{"id": "l3147", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T4", "F3.T3"]}
+{"id": "l1732", "annotator": "first author", "classes": ["F1", "F2", "F3", "F6"], "techniques": ["F1.T3", "F2.T2", "F3.T1", "F3.T6", "F6.T3"]}
+{"id": "c3291", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1"]}
+{"id": "c929", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T4"]}
+{"id": "c1528", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l2215", "annotator": "first author", "classes": ["F2", "F3", "F4"], "techniques": ["F2.T2", "F2.T4", "F3.T1", "F4.T4", "F4.T7"]}
+{"id": "l2479", "annotator": "first author", "classes": ["F4", "F5", "F6"], "techniques": ["F4.T4", "F5.T1", "F5.T3", "F6.T1", "F6.T2", "F6.T3"]}
+{"id": "l2469", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F4.T4"]}
+{"id": "c4273", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T2", "F1.T4", "F1.T6", "F2.T1", "F6.T1", "F6.T2"]}
+{"id": "l1145", "annotator": "first author", "classes": ["F1", "F2", "F4", "F5"], "techniques": ["F1.T1", "F1.T4", "F2.T2", "F2.T4", "F4.T1", "F4.T4", "F5.T1"]}
+{"id": "c2064", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T2", "F1.T4"]}
+{"id": "c1828", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "l1370", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F2.T2", "F2.T4", "F3.T5", "F4.T4", "F4.T7"]}
+{"id": "l24", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F2.T2", "F2.T4", "F3.T1", "F4.T4", "F4.T7", "F6.T3"]}
+{"id": "c595", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T2", "F2.T1", "F3.T7"]}
+{"id": "c3428", "annotator": "first author", "classes": ["F1", "F4", "F5"], "techniques": ["F1.T2", "F1.T4", "F1.T5", "F4.T1", "F4.T4", "F5.T1"]}
+{"id": "c789", "annotator": "first author", "classes": ["F1", "F4", "F5", "F6"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F1.T6", "F4.T1", "F4.T3", "F4.T4", "F4.T7", "F5.T1", "F6.T2", "F6.T3"]}
+{"id": "c3590", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3"]}
+{"id": "l1343", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "l2828", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4", "F6"], "techniques": ["F1.T3", "F1.T6", "F2.T2", "F2.T3", "F2.T4", "F3.T3", "F3.T5", "F4.T1", "F4.T7", "F6.T3"]}
+{"id": "c3411", "annotator": "first author", "classes": ["F1", "F6"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F6.T2"]}
+{"id": "l3117", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F2.T3", "F3.T3", "F4.T3", "F4.T4", "F4.T7"]}
+{"id": "c426", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c3211", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F4.T1", "F4.T3"]}
+{"id": "l3540", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T6", "F2.T2", "F2.T4", "F3.T1", "F3.T3", "F3.T5", "F4.T1", "F4.T3", "F4.T7"]}
+{"id": "c2573", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l3383", "annotator": "first author", "classes": ["F1", "F3", "F4", "F6"], "techniques": ["F1.T3", "F1.T4", "F1.T6", "F3.T3", "F4.T1", "F6.T3"]}
+{"id": "l508", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T3", "F2.T2", "F3.T1"]}
+{"id": "c3324", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1"]}
+{"id": "c1597", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c1829", "annotator": "first author", "classes": ["F1", "F2"], "techniques": ["F1.T1", "F1.T4", "F2.T4"]}
+{"id": "c1341", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "c3129", "annotator": "first author", "classes": ["F1", "F2", "F4", "F6"], "techniques": ["F1.T1", "F2.T2", "F4.T1", "F4.T4", "F6.T3"]}
+{"id": "c3284", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T1", "F1.T2", "F1.T4", "F2.T1", "F6.T1"]}
+{"id": "c3002", "annotator": "first author", "classes": ["F1", "F4"], "techniques": ["F1.T1", "F4.T7"]}
+{"id": "c525", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1", "F1.T4"]}
+{"id": "l2715", "annotator": "first author", "classes": ["F1", "F2", "F3"], "techniques": ["F1.T1", "F1.T3", "F1.T4", "F1.T5", "F1.T6", "F2.T4", "F3.T3", "F3.T5"]}
+{"id": "l177", "annotator": "first author", "classes": ["F1", "F2", "F3", "F4"], "techniques": ["F1.T1", "F1.T5", "F2.T2", "F2.T4", "F3.T5", "F4.T4"]}
+{"id": "c4356", "annotator": "first author", "classes": ["F1", "F2", "F6"], "techniques": ["F1.T2", "F1.T4", "F1.T6", "F2.T1", "F6.T3"]}
+{"id": "c4383", "annotator": "first author", "classes": ["F1"], "techniques": ["F1.T1"]}
