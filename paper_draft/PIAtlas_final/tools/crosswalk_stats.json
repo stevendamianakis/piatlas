@@ -1,0 +1,862 @@
+{
+ "schemes": 44,
+ "in_table": 29,
+ "card_only": 15,
+ "example_only": [
+  "debenedetti2024satml"
+ ],
+ "categories": 1488,
+ "placed": 779,
+ "outside_only": 709,
+ "named_in_table": {
+  "F1": [
+   "perez2022ignore",
+   "greshake2023notwhat",
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "liu2024houyi",
+   "liu2024openpi",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "pfister2025gandalf",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "wang2026landscape",
+   "maloyan2026coding",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "mitreatlas"
+  ],
+  "F2": [
+   "perez2022ignore",
+   "schulhoff2023hackaprompt",
+   "toyer2024tensortrust",
+   "liu2024houyi",
+   "liu2024openpi",
+   "rawat2024attackatlas",
+   "hiddenlayer2025ape",
+   "mitreatlas"
+  ],
+  "F3": [
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "kang2024exploiting",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "liu2024houyi",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "xu2026sokjailbreak",
+   "wang2026landscape",
+   "maloyan2026coding",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "owasp2026llm01"
+  ],
+  "F4": [
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "zeng2024johnny",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "pfister2025gandalf",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "wang2026landscape",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak"
+  ],
+  "F5": [
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "kang2024exploiting",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak"
+  ],
+  "F6": [
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "liu2024houyi",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "giarrusso2026guardrails"
+  ]
+ },
+ "present_in_table": {
+  "F1": [
+   "perez2022ignore",
+   "greshake2023notwhat",
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "kang2024exploiting",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "liu2024houyi",
+   "liu2024openpi",
+   "zeng2024johnny",
+   "wallace2024hierarchy",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "xu2026sokjailbreak",
+   "wang2026landscape",
+   "maloyan2026coding",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "owasp2026llm01",
+   "mitreatlas"
+  ],
+  "F2": [
+   "perez2022ignore",
+   "greshake2023notwhat",
+   "schulhoff2023hackaprompt",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "liu2024houyi",
+   "liu2024openpi",
+   "wallace2024hierarchy",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "wang2026landscape",
+   "maloyan2026coding",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "owasp2026llm01",
+   "mitreatlas"
+  ],
+  "F3": [
+   "greshake2023notwhat",
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "kang2024exploiting",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "liu2024houyi",
+   "zeng2024johnny",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "xu2026sokjailbreak",
+   "wang2026landscape",
+   "maloyan2026coding",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "owasp2026llm01",
+   "mitreatlas"
+  ],
+  "F4": [
+   "greshake2023notwhat",
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "kang2024exploiting",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "zeng2024johnny",
+   "wallace2024hierarchy",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "xu2026sokjailbreak",
+   "wang2026landscape",
+   "maloyan2026coding",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "mitreatlas"
+  ],
+  "F5": [
+   "greshake2023notwhat",
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "kang2024exploiting",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "zeng2024johnny",
+   "wallace2024hierarchy",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "xu2026sokjailbreak",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "mitreatlas"
+  ],
+  "F6": [
+   "perez2022ignore",
+   "greshake2023notwhat",
+   "liu2023jailbreaking",
+   "wei2023jailbroken",
+   "schulhoff2023hackaprompt",
+   "rao2024tricking",
+   "toyer2024tensortrust",
+   "rossi2024early",
+   "liu2024houyi",
+   "wallace2024hierarchy",
+   "meta2024cyberseceval",
+   "rawat2024attackatlas",
+   "nist2025aml",
+   "pfister2025gandalf",
+   "abdelnabi2025llmail",
+   "hong2025sokeval",
+   "hiddenlayer2025ape",
+   "xu2026sokjailbreak",
+   "maloyan2026coding",
+   "promptware2026killchain",
+   "giarrusso2026guardrails",
+   "mlcommons2026jailbreak",
+   "iyer2026talk",
+   "mitreatlas"
+  ]
+ },
+ "marks": {
+  "perez2022ignore": [
+   "full",
+   "full",
+   "none",
+   "none",
+   "none",
+   "half"
+  ],
+  "kang2024exploiting": [
+   "half",
+   "none",
+   "full",
+   "half",
+   "full",
+   "none"
+  ],
+  "greshake2023notwhat": [
+   "full",
+   "half",
+   "half",
+   "half",
+   "half",
+   "half"
+  ],
+  "liu2023jailbreaking": [
+   "full",
+   "none",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "wei2023jailbroken": [
+   "full",
+   "none",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "schulhoff2023hackaprompt": [
+   "full",
+   "full",
+   "full",
+   "half",
+   "full",
+   "full"
+  ],
+  "toyer2024tensortrust": [
+   "full",
+   "full",
+   "full",
+   "half",
+   "full",
+   "full"
+  ],
+  "yi2023bipia": [
+   "half",
+   "none",
+   "none",
+   "none",
+   "none",
+   "full"
+  ],
+  "rossi2024early": [
+   "full",
+   "none",
+   "full",
+   "half",
+   "full",
+   "half"
+  ],
+  "liu2024houyi": [
+   "full",
+   "full",
+   "full",
+   "none",
+   "none",
+   "full"
+  ],
+  "liu2024openpi": [
+   "full",
+   "full",
+   "none",
+   "none",
+   "none",
+   "none"
+  ],
+  "zeng2024johnny": [
+   "half",
+   "none",
+   "half",
+   "full",
+   "half",
+   "none"
+  ],
+  "wallace2024hierarchy": [
+   "half",
+   "half",
+   "none",
+   "half",
+   "half",
+   "half"
+  ],
+  "rehberger2024trustno": [
+   "full",
+   "none",
+   "full",
+   "none",
+   "none",
+   "none"
+  ],
+  "debenedetti2024satml": [
+   "half",
+   "none",
+   "half",
+   "half",
+   "half",
+   "half"
+  ],
+  "nist2025aml": [
+   "half",
+   "none",
+   "full",
+   "half",
+   "full",
+   "full"
+  ],
+  "pfister2025gandalf": [
+   "full",
+   "none",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "abdelnabi2025llmail": [
+   "full",
+   "half",
+   "full",
+   "full",
+   "none",
+   "half"
+  ],
+  "hong2025sokeval": [
+   "full",
+   "half",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "wang2026guardrails": [
+   "none",
+   "none",
+   "full",
+   "half",
+   "half",
+   "none"
+  ],
+  "xu2026sokjailbreak": [
+   "half",
+   "none",
+   "full",
+   "half",
+   "half",
+   "half"
+  ],
+  "wang2026landscape": [
+   "full",
+   "half",
+   "full",
+   "full",
+   "none",
+   "none"
+  ],
+  "maloyan2026coding": [
+   "full",
+   "half",
+   "full",
+   "half",
+   "none",
+   "half"
+  ],
+  "promptware2026killchain": [
+   "full",
+   "none",
+   "full",
+   "half",
+   "full",
+   "half"
+  ],
+  "trustauth2025bip": [
+   "none",
+   "half",
+   "none",
+   "none",
+   "none",
+   "none"
+  ],
+  "mitreatlas": [
+   "full",
+   "full",
+   "half",
+   "half",
+   "half",
+   "half"
+  ],
+  "rao2024tricking": [
+   "full",
+   "half",
+   "full",
+   "half",
+   "full",
+   "full"
+  ],
+  "rawat2024attackatlas": [
+   "full",
+   "full",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "giarrusso2026guardrails": [
+   "full",
+   "half",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "yu2024dontlisten": [
+   "full",
+   "none",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "inie2025summon": [
+   "full",
+   "full",
+   "full",
+   "full",
+   "full",
+   "half"
+  ],
+  "lin2025achilles": [
+   "half",
+   "half",
+   "full",
+   "half",
+   "half",
+   "full"
+  ],
+  "dziemian2026vulnerable": [
+   "full",
+   "full",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "li2024mhj": [
+   "full",
+   "none",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "khodayari2026wild": [
+   "full",
+   "half",
+   "none",
+   "full",
+   "full",
+   "full"
+  ],
+  "hiddenlayer2025ape": [
+   "full",
+   "full",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "mlcommons2026jailbreak": [
+   "full",
+   "half",
+   "full",
+   "full",
+   "full",
+   "half"
+  ],
+  "iyer2026talk": [
+   "full",
+   "half",
+   "full",
+   "half",
+   "half",
+   "half"
+  ],
+  "owasp2026llm01": [
+   "half",
+   "half",
+   "full",
+   "none",
+   "none",
+   "none"
+  ],
+  "paloalto2025securing": [
+   "full",
+   "half",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "unit42_2026fooling": [
+   "none",
+   "full",
+   "full",
+   "full",
+   "half",
+   "none"
+  ],
+  "microsoft2024promptshields": [
+   "half",
+   "full",
+   "full",
+   "none",
+   "full",
+   "none"
+  ],
+  "haddix2025arcanum": [
+   "full",
+   "full",
+   "full",
+   "full",
+   "full",
+   "full"
+  ],
+  "cisco2025framework": [
+   "full",
+   "half",
+   "full",
+   "half",
+   "half",
+   "none"
+  ],
+  "meta2024cyberseceval": [
+   "full",
+   "half",
+   "full",
+   "full",
+   "full",
+   "full"
+  ]
+ },
+ "axes": {
+  "perez2022ignore": [
+   "goal",
+   "target"
+  ],
+  "kang2024exploiting": [
+   "delivery",
+   "goal"
+  ],
+  "greshake2023notwhat": [
+   "delivery",
+   "goal",
+   "lifecycle",
+   "target"
+  ],
+  "liu2023jailbreaking": [
+   "goal"
+  ],
+  "wei2023jailbroken": [
+   "delivery",
+   "search method",
+   "failure mode"
+  ],
+  "schulhoff2023hackaprompt": [
+   "delivery",
+   "goal",
+   "target",
+   "failure mode"
+  ],
+  "toyer2024tensortrust": [
+   "goal"
+  ],
+  "yi2023bipia": [
+   "delivery",
+   "goal",
+   "target"
+  ],
+  "rossi2024early": [
+   "delivery",
+   "goal",
+   "search method",
+   "model access"
+  ],
+  "liu2024houyi": [
+   "goal",
+   "search method",
+   "target"
+  ],
+  "liu2024openpi": [],
+  "zeng2024johnny": [],
+  "wallace2024hierarchy": [
+   "delivery",
+   "goal",
+   "trust",
+   "target"
+  ],
+  "rehberger2024trustno": [
+   "delivery",
+   "goal",
+   "lifecycle",
+   "target"
+  ],
+  "debenedetti2024satml": [],
+  "nist2025aml": [
+   "delivery",
+   "goal",
+   "search method",
+   "lifecycle",
+   "failure mode",
+   "model access"
+  ],
+  "pfister2025gandalf": [],
+  "abdelnabi2025llmail": [
+   "goal"
+  ],
+  "hong2025sokeval": [
+   "delivery",
+   "goal",
+   "search method",
+   "trust",
+   "target",
+   "failure mode",
+   "model access"
+  ],
+  "wang2026guardrails": [
+   "delivery",
+   "search method"
+  ],
+  "xu2026sokjailbreak": [
+   "delivery",
+   "search method",
+   "failure mode",
+   "model access"
+  ],
+  "wang2026landscape": [
+   "delivery",
+   "goal",
+   "search method",
+   "trust",
+   "target",
+   "model access"
+  ],
+  "maloyan2026coding": [
+   "delivery",
+   "goal",
+   "lifecycle",
+   "target"
+  ],
+  "promptware2026killchain": [
+   "delivery",
+   "goal",
+   "lifecycle",
+   "target"
+  ],
+  "trustauth2025bip": [
+   "delivery",
+   "goal",
+   "trust",
+   "failure mode"
+  ],
+  "mitreatlas": [
+   "delivery",
+   "goal",
+   "search method",
+   "lifecycle",
+   "target",
+   "model access"
+  ],
+  "rao2024tricking": [
+   "delivery",
+   "goal"
+  ],
+  "rawat2024attackatlas": [],
+  "giarrusso2026guardrails": [
+   "delivery",
+   "search method",
+   "model access"
+  ],
+  "yu2024dontlisten": [
+   "search method"
+  ],
+  "inie2025summon": [
+   "delivery",
+   "goal",
+   "search method",
+   "model access"
+  ],
+  "lin2025achilles": [
+   "model access"
+  ],
+  "dziemian2026vulnerable": [
+   "delivery"
+  ],
+  "li2024mhj": [
+   "delivery"
+  ],
+  "khodayari2026wild": [
+   "delivery",
+   "goal",
+   "target"
+  ],
+  "hiddenlayer2025ape": [
+   "delivery",
+   "goal",
+   "search method",
+   "lifecycle",
+   "target"
+  ],
+  "mlcommons2026jailbreak": [
+   "delivery",
+   "search method"
+  ],
+  "iyer2026talk": [
+   "delivery",
+   "goal",
+   "search method",
+   "lifecycle",
+   "target",
+   "model access"
+  ],
+  "owasp2026llm01": [
+   "delivery",
+   "goal",
+   "lifecycle",
+   "trust"
+  ],
+  "paloalto2025securing": [
+   "delivery",
+   "goal",
+   "search method",
+   "lifecycle",
+   "target",
+   "model access"
+  ],
+  "unit42_2026fooling": [
+   "delivery",
+   "goal"
+  ],
+  "microsoft2024promptshields": [
+   "delivery",
+   "goal"
+  ],
+  "haddix2025arcanum": [
+   "delivery",
+   "goal",
+   "search method",
+   "lifecycle",
+   "trust",
+   "target",
+   "model access"
+  ],
+  "cisco2025framework": [
+   "delivery",
+   "goal"
+  ],
+  "meta2024cyberseceval": [
+   "delivery",
+   "goal"
+  ]
+ }
+}
