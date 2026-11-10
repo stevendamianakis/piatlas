@@ -1,16 +1,21 @@
-# PIAtlas and PICorpus: code and data
+<h1 align="center">PIAtlas and PICorpus</h1>
 
-Code and data for the paper **SoK: PIAtlas: Decomposing the Unbounded Prompt Injection Attack Space**.
+<p align="center">
+  Code and data for the paper<br>
+  <b>SoK: PIAtlas: Decomposing the Unbounded Prompt Injection Attack Space</b>
+</p>
 
-[Paper (arXiv:2610.24999)](https://arxiv.org/abs/2610.24999) · [Interactive taxonomy](https://stevendamianakis.github.io/piatlas-site/) · [Cite](#citation)
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.24999" title="Read the paper on arXiv (2610.24999)"><img src="assets/button-paper.svg" alt="Paper" height="48"></a>
+  <a href="https://stevendamianakis.github.io/piatlas-site/" title="Browse the interactive taxonomy"><img src="assets/button-website.svg" alt="Website" height="48"></a>
+  <a href="#citation" title="How to cite the paper"><img src="assets/button-cite.svg" alt="Cite" height="48"></a>
+</p>
 
 PIAtlas is a taxonomy of prompt-injection attacks, organized by how the injected instruction is
 constructed to subvert the model. It has 6 classes, 34 techniques and 131 sub-techniques.
 
-**Browse the taxonomy on the website: <https://stevendamianakis.github.io/piatlas-site/>**
-
-Every entry there has a definition and a worked example, and the whole taxonomy can be downloaded
-as CSV, JSON or Markdown.
+On the [website](https://stevendamianakis.github.io/piatlas-site/), every entry has a definition
+and a worked example, and the whole taxonomy can be downloaded as CSV, JSON or Markdown.
 
 ## What is in this repository
 
